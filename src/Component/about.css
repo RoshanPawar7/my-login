@@ -1,0 +1,44 @@
+.main-wrapper{
+    margin-top: 2px;
+    img{
+        width: 100%;
+        object-fit: contain;
+    }
+}
+.wrapper-info{
+justify-content: center;
+align-items: center;
+height: 220px;
+display: flex;
+background-color: #000;
+}
+.info{
+    color: white;
+    flex-direction: column;
+    width: 24%;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.build-info{
+margin-top: 1px;
+ margin-bottom: 2px;
+width: 100%;
+display: flex;
+flex-direction: row;
+color: white;
+background-color: #000;
+/* font-size: 15px; */
+}
+.left{
+    width: 43%;
+  padding-left: 50px;
+}
+.right{
+    width: 57%;
+    padding-left: 60px;
+  }
+  .build-info p{
+    font-size: 20px;
+    line-height: 1.6;
+    color: white;
+}

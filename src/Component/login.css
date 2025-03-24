@@ -1,0 +1,119 @@
+.login-container {
+    position: relative;
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+  .center-heading {
+    position: absolute;
+    width: 171px;
+    height: auto;
+    top: 58px;
+    left: 46%;
+    }
+    .inner-login {
+    position: absolute;
+    top: 25%;
+    left: 38%;
+    background-color: black;
+    width: 32%;
+    color: white;
+    height: 70%;
+  }
+  
+  .login-text {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+    font-size: 30px;
+
+  }
+  .inner-text {
+    color: #9999;
+    width: 366px;
+    height: 55px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+    padding-left: 45px;
+  }
+  
+  .login-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+  }
+  .Goolge-btn {
+    width: 250px;
+    height: 50px;
+    padding: 5px;
+    padding-top: 10px;
+    background-color: grey;
+    margin: 10px;
+    font-size: 15px;
+  }
+  .Facebook-btn {
+    width: 250px;
+    height: 50px;
+    padding: 5px;
+    padding-top: 10px;
+    background-color: grey;
+    margin: 10px;
+    font-size: 15px;
+  }
+  
+  .or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 434px; */
+    height: 70px;
+    color: #9999;
+  }
+  
+  .or hr {
+    width: 100px;
+    margin: 0 10px;
+    opacity: 0.5;
+    padding-right: 14px;
+  }
+  
+  /* .email-detail {
+    padding-right: 30%;
+  } */
+  .address {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-right: 24%;
+    font-size: 20px;
+  }
+  .email {
+    width: 250px;
+    height: 50px;
+    background-color: grey;
+    margin: 10px;
+    font-size: 15px;
+    opacity: 0.5;
+    margin-left: 21%;
+    padding-right: 24%;
+    
+  }
+  
+  .click {
+    color: #9999;
+    width: 380px;
+    height: 55px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 15px;
+    padding-left: 45px;
+  }
+  .click span {
+    color: white;
+  }
+  
